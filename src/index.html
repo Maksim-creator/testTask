@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/main.min.css">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+
+    <!-- Compiled and minified JavaScript -->
+    <title>Document</title>
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <div class="header-content__wrapper">
+                    <div class="burger">
+                        <span class="burger-item"></span>
+                        <span class="burger-item"></span>
+                        <span class="burger-item"></span>
+                    </div>
+                    <img src="./assets/img/logo.png" alt="logo-image">
+                    <button class="header-btn btn_buy">КУПИТЬ GOLD АККАУНТ</button>
+                    <button class="header-btn btn_create">СОЗДАТЬ КАСТИНГ / ОБЪЯВЛЕНИЕ</button>
+                    <!-- <button class="header-btn btn_login">ВХОД / РЕГИСТРАЦИЯ</button> -->
+                    <div class="btn-login">
+                        <a href="#">ВХОД</a>
+                        /
+                            <a href="#">РЕГИСТРАЦИЯ</a>
+                    </div>
+                </div>
+            </div>
+            <div class="nav__wrapper">
+                <nav class="nav">
+                    <ul class="nav-items">
+                        <li class="nav-items_item"><a href="#" class="tab-link">О НАС</a></li>
+                        <li class="nav-items_item "><a href="#" class="tab-link active">СОИСКАТЕЛИ</a></li>
+                        <li class="nav-items_item "><a href="#" class="tab-link">НАНИМАТЕЛИ</a></li>
+                        <li class="nav-items_item"><a href="#" class="tab-link">КАСТИНГИ</a></li>
+                        <li class="nav-items_item"><a href="#" class="tab-link">КАЛЕНДАРЬ КАСТИНГОВ</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <section class="selects">
+        <div class="container">
+            <div class="selects__wrapper">
+                <select name="casting" id="casting">
+                    <option class="padding-opt" value="" disabled hidden selected>Кастинг</option>
+                    <option value="variant1">Вариант 1</option>
+                    <option value="variant2">Вариант 2</option>
+                </select>
+                <select name="sex" id="sex">
+                    <option selected value='' hidden disabled>Пол</option>
+                    <option value="variant1">Мужской</option>
+                    <option value="variant2">Женский</option>
+                </select>
+                <div class="search-input">
+                    <input type="text" placeholder="Ключевая фраза" class="phrase">
+                    <i class="fa fa-search"></i>
+                </div>
+                <select id="age" size="0">
+                    <option selected hidden>Возраст</option>
+                </select>
+                <div class="div animate__animated">
+                    <input type="range" 
+                       class="inp-range"
+                       min="0"
+                       max="100"
+                       step="1">
+                </div>
+                <button class="selects-filters">ЕЩЁ ФИЛЬТРЫ</button>
+                <button class="selects-search">НАЙТИ</button>
+            </div>
+        </div>
+    </section>
+    <section class="slider">
+            <div class="slider__wrapper">
+                <div class="slider-image">
+                    <img src="./assets/img/slide1.png"  class="slider-img" alt="slide-item">
+                </div>
+                <div class="slider-content">
+                    <h2 class="slider-content_title">
+                        ARTCASTING
+                    </h2>
+                    <div class="slider-content_subtitle">
+                        Это самый удобный, интуитивный сервис кастингов в рунете
+                    </div>
+                    <button class="slider-content_btn">
+                        найти кастинг
+                    </button>
+                </div>
+            </div>
+            <div class="dots_wrapper">
+                <span class="left-arr"><img src="./assets/img/arr-to-left.svg" alt=""></span>
+                <span class="dot active-dot"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+                <span class="right-arr"><img src="./assets/img/arr-to-right.png" alt=""></span>
+            </div>
+    </section>
+    <section class="castings">
+        <div class="container">
+            <div class="castings_title">
+                Кастинги и массовки в Москве
+            </div>
+            <div class="castings__wrapper">
+                <div class="castings__items">
+                    <img src="./assets/img/Rectangle 99.png" alt="img" class="casting__item_img">
+                    <div class="castings__items_name">Холмогорова Ирина Валентиновна</div>
+                    <div class="castings__items_role">Актер, Вокалист, Ведущий</div>
+                    <div class="castings__items_age">26 лет</div>
+                </div>
+                <div class="castings__items">
+                    <img src="./assets/img/Rectangle 99-1.png" alt="img" class="casting__item_img">
+                    <div class="castings__items_name">Смирнов Роман</div>
+                    <div class="castings__items_role">Актер, Вокалист, Ведущий</div>
+                    <div class="castings__items_age">19 лет</div>
+                </div>
+                <div class="castings__items">
+                    <img src="./assets/img/Rectangle 99-2.png" alt="img" class="casting__item_img">
+                    <div class="castings__items_name">Дюмина Марина Викторовна</div>
+                    <div class="castings__items_role">Актер, Вокалист, Ведущий</div>
+                    <div class="castings__items_age">32 года</div>
+                </div>
+                <div class="castings__items">
+                    <img src="./assets/img/Rectangle 99-3.png" alt="img" class="casting__item_img">
+                    <div class="castings__items_name">Холмогорова Ирина Валентиновна</div>
+                    <div class="castings__items_role">Актер, Вокалист, Ведущий</div>
+                    <div class="castings__items_age">29 лет</div>
+                </div>
+                <div class="castings__items">
+                    <img src="./assets/img/Rectangle 99-4.png" alt="img" class="casting__item_img">
+                    <div class="castings__items_name">Воронин Сергей </div>
+                    <div class="castings__items_role">Актер, Вокалист, Ведущий</div>
+                    <div class="castings__items_age">28 лет</div>
+                </div>
+                <div class="castings__items add">
+                    
+                    <div class="add-circle">
+                        <div class="ver_wrap">
+                            <span class="vertical"></span>
+                        </div>
+                        <div class="hor_wrap">
+                            <span class="horizontal"></span>
+                        </div>
+                    </div>
+                    <div class="add-title">
+                        ДОБАВИТЬ АНКЕТУ
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+
+    </section>
+    <script src="https://kit.fontawesome.com/5c03e5837b.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>
